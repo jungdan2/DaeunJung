@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+[class*="c_"] {
+  float: left;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .c_m_1 {width:8.33%;}
+  .c_m_2 {width:16.66%;}
+  .c_m_3 {width:25%;}
+  .c_m_4 {width:33.33%;}
+  .c_m_5 {width:41.66%;}
+  .c_m_6 {width:50%;}
+  .c_m_7 {width:58.33%;}
+  .c_m_8 {width:66.66%;}
+  .c_m_9 {width:75%;}
+  .c_m_10 {width:83.33%;}
+  .c_m_11 {width:91.66%;}
+  .c_m_12 {width:100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  [class*="c_"] {
+    width: 100%;
+
+  }
+
+.c1 {width:8.33%; float: left; padding: 15px;}
+.c2 {width:16.66%; float: left; padding: 15px;}
+.c3 {width:25%; float: left; padding: 15px;}
+.c4 {width:33.33%; float: left; padding: 15px;}
+.c5 {width:41.663%; float: left; padding: 15px;}
+.c6 {width:50%; float: left; padding: 15px;}
+.c7 {width:58.33%; float: left; padding: 15px;}
+.c8 {width:66.66%; float: left; padding: 15px;}
+.c9 {width:75%; float: left; padding: 15px;}
+.c10 {width:83.33%; float: left; padding: 15px;}
+.c11 {width:91.66%; float: left; padding: 15px;}
+.c12 {width:100%; float: left; padding: 15px;}
+
+img,embed,object,video {max-width: 100%;}
+
+body {
+  background-color: #f2f0f0;
+  font-family: "맑은 고딕";
+  font-size: 12px;
+  color: #444444;
+}
+
+ul {
+  list-style-type:none;
+}
+
+#header {
+  height:135px;
+  position:relative;
+
+  /* border:solid 1px #ff0000; */
+}
+
+#logo {
+  position:absolute;
+  top:30px;
+  left:70px;
+  /* border:solid 1px #0000ff; */
+}
+
+#top_menu {
+  position:absolute;
+  top:40px;
+  left:1110px;
+  /* border:solid 1px #0000ff; */
+}
+
+#top_menu li {
+  display:inline;
+}
+
+a:link { text-decoration:none;
+color:#000000; }
+a:visited { color: #000000; }
+a:active { text-decoration:none;
+color:#000000; }
+a:hover { text-decoration:none;
+color:#000000; }
+
+#main1 {
+  margin-top: 70px;
+  margin-left: 100px;
+  position: absolute;
+  z-index: 99;
+}
+
+#main2 {
+  margin-top: 70px;
+  margin-left: 430px;
+  position: absolute;
+  z-index: 70;
+}
+
+#main3 {
+  margin-top: 70px;
+  margin-left: 760px;
+  position: absolute;
+}
+
+#typo {
+  float: right;
+  margin-top: 580px;
+  margin-left: 600px;
+  font-size: 120px;
+  font-weight: bold;
+  position: absolute;
+  z-index: 100;
+}
+
+#text1 {
+  width: 220px;
+  float: right;
+  margin-top: 440px;
+  margin-right: 75px;
+  line-height: 22px;
+}
+
+.clear {
+    clear: both;
+  }
